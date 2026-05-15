@@ -7,15 +7,18 @@ import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboa
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
-import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
-import BlogCardTwo from '@/components/sections/blog/BlogCardTwo';
-import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import { Sparkles, Award, Beaker, TrendingUp, Heart, HelpCircle, BookOpen, Camera } from 'lucide-react';
+import { Sparkles, Award, Heart, Camera } from 'lucide-react';
 
 export default function LandingPage() {
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <ThemeProvider
       defaultButtonVariant="bounce-effect"
@@ -39,7 +42,7 @@ export default function LandingPage() {
             { name: "Gallery", id: "gallery" },
             { name: "Contact", id: "contact" }
           ]}
-          button={{ text: "Shop Now", href: "#products" }}
+          button={{ text: "Shop Now", onClick: () => scrollTo("products") }}
         />
       </div>
 
@@ -52,8 +55,8 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           background={{ variant: "plain" }}
           buttons={[
-            { text: "Shop Now", href: "#products" },
-            { text: "Explore Products", href: "#products" }
+            { text: "Shop Now", onClick: () => scrollTo("products") },
+            { text: "Explore Products", onClick: () => scrollTo("products") }
           ]}
           buttonAnimation="slide-up"
           carouselItems={[
@@ -140,8 +143,8 @@ export default function LandingPage() {
         <FooterLogoEmphasis
           logoText="BachchaWipes"
           columns={[
-            { items: [{ label: "Shop" }, { label: "Story" }, { label: "Gallery" }] },
-            { items: [{ label: "Shipping" }, { label: "Contact" }, { label: "Privacy" }] }
+            { items: [{ label: "Shop", onClick: () => scrollTo("products") }, { label: "Story", onClick: () => scrollTo("story") }, { label: "Gallery", onClick: () => scrollTo("gallery") }] },
+            { items: [{ label: "Contact", onClick: () => scrollTo("contact") }, { label: "Privacy" }] }
           ]}
         />
       </div>
