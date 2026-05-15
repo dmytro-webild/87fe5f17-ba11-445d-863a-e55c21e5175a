@@ -79,7 +79,7 @@ export default function LandingPage() {
           tag="Brand Vision"
           tagIcon={Heart}
           imagePosition="left"
-          imageSrc="http://img.b2bpic.net/free-photo/minimal-baby-nursery-setup_23-2148564022.jpg"
+          imageSrc="https://img.b2bpic.net/free-photo/closeup-woman-using-antibacterial-wipe-cleaning-hands-bathroom_637285-4741.jpg?id=26143248"
           bulletPoints={[
             { title: "Ethical Sourcing", description: "Materials harvested with sustainability in mind." },
             { title: "Purity Standard", description: "Clinically clean formulation for sensitive skin." }
