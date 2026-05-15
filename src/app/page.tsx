@@ -97,8 +97,8 @@ export default function LandingPage() {
           tagIcon={Award}
           animationType="slide-up"
           products={[
-            { id: "1", name: "Sensitive Pure", price: "", imageSrc: "http://img.b2bpic.net/free-photo/birthday-background_23-2148031001.jpg" },
-            { id: "2", name: "Bamboo Organic", price: "", imageSrc: "http://img.b2bpic.net/free-photo/top-view-different-brushes-arrangement_23-2148743090.jpg" },
+            { id: "1", name: "Sensitive Pure", price: "", imageSrc: "https://img.b2bpic.net/free-photo/paper-bag-packaging-food-takeaway-concept_53876-129021.jpg?id=17604393" },
+            { id: "2", name: "Bamboo Organic", price: "", imageSrc: "https://img.b2bpic.net/premium-photo/cleaning-disinfection-hands-with-antibacterial-wet-wipes_122732-1617.jpg?id=7060078" },
             { id: "3", name: "Travel Wipes", price: "", imageSrc: "http://img.b2bpic.net/free-photo/white-package-wet-wipes-isolated_187299-46184.jpg" }
           ]}
           gridVariant="asymmetric-60-wide-40-narrow"
