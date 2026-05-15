@@ -61,7 +61,7 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           carouselItems={[
             { id: "1", imageSrc: "http://img.b2bpic.net/free-photo/close-up-blue-marshmallows_23-2147748095.jpg", imageAlt: "Premium baby wipes pack" },
-            { id: "2", imageSrc: "http://img.b2bpic.net/free-photo/child-one-little-studio-alone_1304-922.jpg", imageAlt: "Happy baby lifestyle" },
+            { id: "2", imageSrc: "https://img.b2bpic.net/free-photo/set-with-2-hand-holding-wipes-napkins-makeup-remove_633478-558.jpg?id=26076798", imageAlt: "Happy baby lifestyle" },
             { id: "3", imageSrc: "http://img.b2bpic.net/free-photo/sponge-stars-soap-bar-sanitizer-soap-dispenser-blue-background_23-2147940458.jpg", imageAlt: "Close up of baby care products" },
             { id: "4", imageSrc: "http://img.b2bpic.net/free-photo/mother-with-little-son-bathroom_1157-20455.jpg", imageAlt: "Minimalist bathroom setting" },
             { id: "5", imageSrc: "http://img.b2bpic.net/free-photo/handle-newborn-hands-grandmother-closeup_169016-37570.jpg", imageAlt: "Parent and child hand holding" },
