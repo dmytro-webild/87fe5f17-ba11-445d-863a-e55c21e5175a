@@ -99,7 +99,7 @@ export default function LandingPage() {
           products={[
             { id: "1", name: "Sensitive Pure", price: "", imageSrc: "http://img.b2bpic.net/free-photo/birthday-background_23-2148031001.jpg" },
             { id: "2", name: "Bamboo Organic", price: "", imageSrc: "http://img.b2bpic.net/free-photo/top-view-different-brushes-arrangement_23-2148743090.jpg" },
-            { id: "3", name: "Travel Duo", price: "", imageSrc: "http://img.b2bpic.net/free-photo/white-package-wet-wipes-isolated_187299-46184.jpg" }
+            { id: "3", name: "Travel Wipes", price: "", imageSrc: "http://img.b2bpic.net/free-photo/white-package-wet-wipes-isolated_187299-46184.jpg" }
           ]}
           gridVariant="asymmetric-60-wide-40-narrow"
           textboxLayout="inline-image"
